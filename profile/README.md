@@ -2,7 +2,7 @@
 
 **Secure Post-Quantum-Safe Securities Exchange Platform That Heals and Scales Itself.**
 
-Exchange8 is the securities exchange vertical of the Sentin8 platform — a complete trading venue: from market data ingestion and order matching through clearing, margining, settlement, and regulatory surveillance. Built as independent Rust services composed on top of the Sentin8 platform for identity, events, workflows, scheduling, and storage.
+Exchange8 is the securities exchange vertical of the Sentin8 platform - a complete trading venue: from market data ingestion and order matching through clearing, margining, settlement, and regulatory surveillance. Built as independent Rust services composed on top of the Sentin8 platform for identity, events, workflows, scheduling, and storage.
 
 ## Services
 
@@ -48,11 +48,11 @@ Exchange8 depends on these Sentin8 platform services for cross-cutting concerns:
 
 ## Key Invariants
 
-- **Complete regulatory traceability** — who acted on which order, when, why it was denied (itemized traces), every wire message, every fill with preserved broker tags
-- **Capital protection** — exposure limits enforced before acceptance; market data access bought exactly as consumed
-- **One source of truth** — all trading state lives in the exchange8 database with hard tenant isolation
-- **Zero infrastructure operation** — the vertical never operates infrastructure; the platform group does
-- **Composable enrollment** — any subset of services enrolls independently via `vertical enroll`
+- **Complete regulatory traceability** - who acted on which order, when, why it was denied (itemized traces), every wire message, every fill with preserved broker tags
+- **Capital protection** - exposure limits enforced before acceptance; market data access bought exactly as consumed
+- **One source of truth** - all trading state lives in the exchange8 database with hard tenant isolation
+- **Zero infrastructure operation** - the vertical never operates infrastructure; the platform group does
+- **Composable enrollment** - any subset of services enrolls independently via `vertical enroll`
 
 ---
 
