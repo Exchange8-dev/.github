@@ -4,6 +4,17 @@
 
 Exchange8 is the securities exchange vertical of the Sentin8 platform - a complete trading venue: from market data ingestion and order matching through clearing, margining, settlement, and regulatory surveillance. Built as independent Rust services composed on top of the Sentin8 platform for identity, events, workflows, scheduling, and storage.
 
+> **A note on our history.** If you found your way here looking for
+> **PRIME** - `authPrime`, `exchangePRIME`, and family - you're in the
+> right place. Those projects are this one: our open-source
+> work is now rebranded to **Sentin8** (this vertical is **Exchange8**) to
+> avoid confusion with other brand names and products. At the same
+> time we left our self-hosted **Apache SVN** behind and moved
+> everything to GitHub. The lineage goes back further than you might
+> expect - here's a fun LinkedIn read from 2017, when the platform was
+> still called PRIME and still lived on SVN:
+> [Advanced Hybrid Securities Exchange](https://www.linkedin.com/pulse/advanced-hybrid-securities-exchange-hamid-jahanzad/).
+
 ## Services
 
 | Service | Domain | What it does |
